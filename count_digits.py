@@ -1,8 +1,7 @@
 n=int(input())
-c=0
-l=list(map(str,input().strip().split()))
+a1=list(map(str,input().strip().split()))
 for i in range(n):
-    s=len(l[i])
-    if int(l[i])<0:
+    s=len(a1[i])
+    if int(a1[i])<0:
         s-=1
     print(s,end=' ')
